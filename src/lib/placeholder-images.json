@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-drone",
+      "description": "A drone flying over a vast, scenic mountain range at sunset.",
+      "imageUrl": "https://picsum.photos/seed/1/1920/1080",
+      "imageHint": "drone landscape"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Avatar for the admin user.",
+      "imageUrl": "https://picsum.photos/seed/10/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "Avatar for a pilot user.",
+      "imageUrl": "https://picsum.photos/seed/11/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "flight-map",
+      "description": "Placeholder image representing a flight path on a map.",
+      "imageUrl": "https://picsum.photos/seed/12/1200/800",
+      "imageHint": "map satellite"
+    }
+  ]
 }
