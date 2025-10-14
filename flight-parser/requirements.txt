@@ -1,0 +1,8 @@
+Flask
+numpy
+pandas
+pycryptodome
+pyproj
+pytz
+requests
+gunicorn
