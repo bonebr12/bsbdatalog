@@ -1,0 +1,3 @@
+[submodule "flight-parser/FlightRecordParsingLib"]
+	path = flight-parser/FlightRecordParsingLib
+	url = https://github.com/lvauvillier/dji-log-parser.git
