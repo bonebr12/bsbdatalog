@@ -6,7 +6,7 @@ Projeto Flask que expõe o parser de voos DJI como uma API pronta para deploy no
 
 ```
 flight-parser/
-├── dji-log-parser/
+├── dji_log_parser/
 │   ├── __init__.py
 │   ├── flight_recorder.py
 │   ├── parser.py
@@ -23,7 +23,7 @@ flight-parser/
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-pip install -e ./dji-log-parser
+pip install -e ./dji_log_parser
 python app.py
 ```
 
