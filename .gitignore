@@ -1,45 +1,64 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
+# ------------------------
+# NODE / NEXT.JS BASICS
+# ------------------------
+node_modules/
+.next/
+out/
+build/
+dist/
+.npm/
+.pnp
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+*.tsbuildinfo
+next-env.d.ts
 
-# testing
-/coverage
+# ------------------------
+# FIREBASE / FUNCTIONS
+# ------------------------
+.firebase/
+.firebase-debug.log
+firestore-debug.log
+storage-debug.log
+.cache/
+functions/node_modules/
+functions/.next/
+functions/.output/
+functions/.turbo/
+functions/dist/
+functions/.env*
+functions/.firebase/
+functions/.cache/
 
-# next.js
-/.next/
-/out/
+# ------------------------
+# ENVIRONMENTS
+# ------------------------
+.env
+.env.*
+.genkit/*
 
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# ------------------------
+# TESTING / LOGS
+# ------------------------
+coverage/
+logs/
+*.log
+*.cache
+*.pack
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# vercel
+# ------------------------
+# VERCEL / DEPLOY / CI
+# ------------------------
 .vercel
+.vscode/
+.idea/
+*.pem
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-.genkit/*
-.env*
-
-# firebase
-firebase-debug.log
-firestore-debug.log
+# ------------------------
+# OS / SYSTEM FILES
+# ------------------------
+.DS_Store
+Thumbs.db
